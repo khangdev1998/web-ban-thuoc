@@ -1,4 +1,3 @@
-/* https://pharmacy.web3ngay.net/?fbclid=IwAR31wbtMiZkG6caBzhPefanefXH1bb1bc6zxkWZWDx_2aF2jgfrOmTs9dp8 */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 * {
   padding: 0;
@@ -391,7 +390,7 @@ body {
   right: 40px;
 }
 .section {
-  background: url(https://pharmacy.web3ngay.net/wp-content/uploads/2021/04/bg-danh-muc.jpg);
+  background: url('../images/bg-danh-muc.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 32px;
@@ -1034,24 +1033,19 @@ body {
   height: 19px;
 }
 .productDetail-list li:nth-child(1)::before {
-  background: url("https://pharmacy.web3ngay.net/wp-content/uploads/2021/12/icon-list-1.png")
-    no-repeat;
+  background: url("../images/future1.png") no-repeat;
 }
 .productDetail-list li:nth-child(2)::before {
-  background: url("https://pharmacy.web3ngay.net/wp-content/uploads/2021/12/icon-list-2.png")
-    no-repeat;
+  background: url("../images/future2.png") no-repeat;
 }
 .productDetail-list li:nth-child(3)::before {
-  background: url("https://pharmacy.web3ngay.net/wp-content/uploads/2021/12/icon-list-3.png")
-    no-repeat;
+  background: url("../images/future3.png") no-repeat;
 }
 .productDetail-list li:nth-child(4)::before {
-  background: url("https://pharmacy.web3ngay.net/wp-content/uploads/2021/12/icon-list-4.png")
-    no-repeat;
+  background: url("../images/future4.png") no-repeat;
 }
 .productDetail-list li:nth-child(5)::before {
-  background: url("https://pharmacy.web3ngay.net/wp-content/uploads/2021/12/icon-list-5.png")
-    no-repeat;
+  background: url("../images/future5.png") no-repeat;
 }
 .support {
   text-align: center;
