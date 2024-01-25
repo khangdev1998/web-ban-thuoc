@@ -1,0 +1,151 @@
+/* M.QUỲNH làm trang này */
+.order {
+  background-color: #f3f4f6;
+  padding: 40px 0;
+}
+.order .order-right,
+.order-left {
+  background-color: white !important;
+  padding: 20px;
+}
+.order .order-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  padding-top: 20px;
+}
+.order .order-left {
+  flex: 1;
+}
+.order .item-main {
+  border: 1px solid #d9dbe1;
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+.order .btn {
+  margin-top: 16px;
+  padding: 11px 85px;
+}
+.order .item-main input {
+  margin-right: 4px;
+}
+.order .order-heading {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.order .order-row {
+  display: flex;
+  margin: 0 -8px;
+}
+.order .order-colHalf {
+  width: 50%;
+  margin: 0 8px;
+  position: relative;
+}
+.order .order-colHalf {
+  margin-bottom: 24px;
+}
+.order .order-colHalf ion-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0.8rem;
+}
+.order .number::-webkit-outer-spin-button,
+.order .number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.order .number[type="number"] {
+  -moz-appearance: textfield;
+}
+.status-error {
+  font-size: 14px;
+  color: #db3700;
+  margin-top: 6px;
+  display: block;
+  display: none;
+}
+.order .order-form input,
+select,
+textarea {
+  border: 1px solid #d1d5db;
+  outline: none;
+  border-radius: 4px;
+  padding: 12.8px 14px;
+  font-family: inherit;
+  width: 100%;
+  font-size: 18px;
+  resize: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+  background-color: transparent;
+}
+.order .order-form input::placeholder {
+  color: #374151;
+}
+.order .order-colFull {
+  width: 100%;
+  margin-bottom: 26px;
+}
+.order .order-right {
+  max-width: 442px;
+  width: 100%;
+  padding: 25px;
+}
+.order .order-right__heading {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 27px;
+}
+.order .order-right__group {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 16px;
+}
+.order .order-right__group b {
+  font-size: 18px;
+  font-weight: 600;
+}
+.order .order-right__group:not(:last-child) {
+  margin-bottom: 15px;
+}
+.order .order-right__group:last-child {
+  border-top: 1px solid #d9dbe1;
+  padding-top: 20px;
+}
+.order .order-right__group-price {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ff5100;
+}
+.order .order-left .item {
+  margin-bottom: 18px;
+}
+.order .order-right,
+.order .item {
+  background: var(--light-color);
+}
+.productSecond {
+  text-align: center;
+  padding: 40px 0 80px 0;
+}
+.productSecond .heading {
+  margin-bottom: 30px;
+}
+.productSecond .productSecond-list {
+  --columns: 5;
+}
+.productSecond .btn {
+  margin-top: 30px;
+}
+.heading {
+  font-size: 28px;
+}

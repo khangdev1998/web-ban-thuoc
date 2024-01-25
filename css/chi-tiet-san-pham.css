@@ -1,0 +1,277 @@
+/* K.QUYNH làm trang này */
+.productDetail {
+  padding-bottom: 50px;
+}
+.productDetail__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 36px;
+}
+.productDetail-left {
+  max-width: 847px;
+  width: 100%;
+}
+.productDetail-image {
+  max-width: 340px;
+  width: 100%;
+}
+.productDetail-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.productDetail-wrapper {
+  display: flex;
+  gap: 0.9375rem;
+}
+.productDetail-content {
+  flex: 1;
+}
+.productDetail-title {
+  font-size: 24px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  font-weight: 400;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+.productDetail-price {
+  display: flex;
+  gap: 14px;
+  font-size: 24px;
+}
+.productDetail-price del {
+  color: #5d5a5a;
+}
+.productDetail-price span {
+  color: #d70018;
+  font-weight: bold;
+}
+.productDetail-status {
+  padding: 18px 0;
+  display: flex;
+  gap: 8px;
+}
+.productDetail-text {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 24px;
+}
+.productDetail-text ion-icon {
+  color: #8bd06e;
+  font-size: 20px;
+}
+.productDetail-main {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 24px;
+  height: 50px;
+}
+.productDetail .quantity-selector {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.productDetail .quantity-selector button {
+  background-color: #f1f1f1;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.productDetail .quantity-selector button:active {
+  background-color: #f0f0f0;
+}
+
+.productDetail .quantity-selector input.quantity-input {
+  border: none;
+  text-align: center;
+  padding: 5px 0;
+  margin: 0 5px;
+  width: 40px;
+  font-size: 18px;
+}
+.productDetail .decrease-quantity {
+  font-size: 20px;
+}
+.productDetail .increase-quantity {
+  font-size: 20px;
+}
+.productDetail-main a {
+  color: white;
+  text-decoration: none;
+  border-radius: 7px;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  transition: opacity 0.2s linear;
+  flex: 1;
+}
+.productDetail-main a:hover {
+  opacity: 0.8;
+}
+.productDetail-main-add {
+  background: linear-gradient(-90deg, #ec1f1f 0%, #ff9c00 100%);
+  padding: 19px;
+  color: white;
+  text-decoration: none;
+  border-radius: 7px;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+.productDetail-main-buy {
+  background-color: #56a045;
+}
+.productDetail-main-call {
+  background: #dff0d8;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 700;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.productDetail-main-call span {
+  color: #56a045;
+}
+.productDetail-main-giff {
+  border: 1px solid #dff0d8;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.productDetail-main-giff ion-icon {
+  font-size: 28px;
+  color: #56a045;
+}
+.productDetail-right {
+  flex: 1;
+}
+.productDetail-future {
+  text-align: center;
+  margin-bottom: 40px;
+  border: 1px solid #dff0d8;
+  padding: 14px;
+  border-radius: 4px;
+}
+.productDetail-future p {
+  font-size: 15px;
+  font-weight: 600;
+  color: #118f3e;
+  margin-bottom: 15px;
+}
+.productDetail-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: fit-content;
+  margin: 0 auto;
+}
+.productDetail-list li {
+  position: relative;
+  padding-left: 35px;
+  text-align: left;
+}
+.productDetail-list li:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 19px;
+  height: 19px;
+}
+.productDetail-list li:nth-child(1)::before {
+  background: url("../images/future1.png") no-repeat;
+}
+.productDetail-list li:nth-child(2)::before {
+  background: url("../images/future2.png") no-repeat;
+}
+.productDetail-list li:nth-child(3)::before {
+  background: url("../images/future3.png") no-repeat;
+}
+.productDetail-list li:nth-child(4)::before {
+  background: url("../images/future4.png") no-repeat;
+}
+.productDetail-list li:nth-child(5)::before {
+  background: url("../images/future5.png") no-repeat;
+}
+.support {
+  text-align: center;
+  margin-bottom: 40px;
+  border: 1px solid #dff0d8;
+  padding: 14px;
+  border-radius: 4px;
+}
+.support-image {
+  margin-top: 15px;
+}
+.support-desc {
+  padding: 12px 0;
+  line-height: 1.5;
+}
+.support-hotline {
+  font-size: 22px;
+  color: #1f9345;
+  font-weight: 700;
+}
+.support-or {
+  font-weight: bold;
+  padding: 10px 0;
+}
+.support-chat {
+  margin: 5px 0;
+}
+.support-button {
+  margin-top: 8px;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #1f9345;
+  padding: 14px 10px;
+  width: 100%;
+  display: inline-block;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #1f9345;
+  transition: background-color 0.2s linear;
+}
+.support-button:hover {
+  background-color: #1f9345;
+  color: white;
+}
+.productDetail-describe {
+  margin-top: 40px;
+  background-color: #dff0d8;
+  padding: 15px;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #118f3e;
+  margin-bottom: 15px;
+}
+.productDetail-content h1 {
+  margin-bottom: 8px;
+}
+.productDetail-content p {
+  margin-bottom: 15px;
+  font-size: 15px;
+  line-height: 1.8;
+}

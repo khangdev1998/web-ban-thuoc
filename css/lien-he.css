@@ -1,0 +1,56 @@
+/* K.QUYNH làm trang này */
+.contact {
+  margin: 40px 0;
+}
+.contact h1 {
+  font-size: 25px;
+  margin-bottom: 18px;
+}
+.contact__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.contact-form {
+  flex: 1;
+}
+.contact-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 16px;
+}
+.contact input,
+textarea {
+  width: 100%;
+  height: 100%;
+  font-family: inherit;
+  border: 1px solid rgb(205, 203, 203);
+  outline: none;
+  padding: 11px 15px;
+  font-size: 15px;
+  border-radius: 6px;
+}
+.contact-columnHalf {
+  width: 50%;
+}
+.contact-columnFull {
+  width: 100%;
+}
+.contact-address {
+  max-width: 482px;
+  width: 100%;
+}
+.contact-address strong {
+  display: inline-block;
+}
+.contact-address p,
+strong {
+  margin-bottom: 8px;
+}
+.contact-address ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
