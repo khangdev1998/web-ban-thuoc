@@ -511,6 +511,24 @@ body {
   flex-direction: column;
   gap: 8px;
 }
+.product-item-content a {
+  background-color: #118f3e;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 8px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+  text-align: center;
+}
+.product-item-content a:hover {
+  opacity: 0.8;
+}
 .product-item-content h3 {
   font-size: 14px;
   text-transform: uppercase;
@@ -531,23 +549,6 @@ body {
   font-size: 15px;
   font-weight: bold;
   color: #15ac4a;
-}
-.product-item-content button {
-  background-color: #118f3e;
-  outline: none;
-  border: none;
-  color: white;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 500;
-  border-radius: 4px;
-  padding: 8px;
-  font-family: inherit;
-  cursor: pointer;
-  transition: opacity 0.2s linear;
-}
-.product-item-content button:hover {
-  opacity: 0.8;
 }
 .about {
   padding: 50px 0;
