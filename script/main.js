@@ -1,18 +1,13 @@
 // Slider banner
 $(".banner .owl-carousel").owlCarousel({
   margin: 10,
-  nav: false,
   smartSpeed: 680,
   autoplaySpeed: 680,
   autoplayTimeout: 4500,
   autoplay: true,
   loop: true,
   autoplayHoverPause: true,
-  responsive: {
-    1000: {
-      items: 1,
-    },
-  },
+  items: 1,
   dots: false,
 });
 
@@ -51,9 +46,19 @@ $(".productSlider .owl-carousel").owlCarousel({
   autoplay: true,
   loop: true,
   autoplayHoverPause: true,
+  items: 1,
   responsive: {
     1000: {
       items: 5,
+    },
+    800: {
+      items: 4,
+    },
+    600: {
+      items: 3,
+    },
+    400: {
+      items: 2,
     },
   },
   dots: false,

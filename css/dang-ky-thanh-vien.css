@@ -1,4 +1,3 @@
-/* M.QUỲNH làm trang này */
 .member {
   margin: 40px 0;
 }
@@ -57,4 +56,13 @@
 }
 .member-forgetPass:hover {
   color: #0cb147;
+}
+
+@media only screen and (max-width: 599px) {
+  .member__container {
+    flex-direction: column;
+  }
+  .member__container > div {
+    width: 100%;
+  }
 }
